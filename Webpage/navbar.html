@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+</head>
+<nav id="home-nav" class="top-navigation-container">
+    <link rel="stylesheet" href="styles/navstyle.css">
+    <div class="grid-container">
+        <div></div>
+        <div class="top-grid-x">
+            <div class="nav-left-grid">
+                <div class="search">Search</div>
+                <div class="dropdown">
+                    <button class="dropbtn">Discover</button>
+                    <div class="dropdown-content">
+                        <a href="">Fundraisers</a>
+                        <a href="">Success Stories</a>
+                        <a href="">Coronavirus Fundraising</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Fundraise for</button>
+                    <div class="dropdown-content">
+                        <a href="">Medical</a>
+                        <a href="">Memorial</a>
+                        <a href="">Emergency</a>
+                        <a href="">Non-Profit</a>
+                        <a href="">Educational</a>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <div id="rdrhome" class="GoFundMeImage"><img src="https://www.gofundme.com/c/wp-content/uploads/2021/04/gofundme-logo.png" alt=""></div>
+            <div class="nav-right-grid">
+                <div></div>
+                <div class="howitworks"><a href="">How it works</a></div>
+                <div class="sign-in"><a href="sign_in.html">Sign</a></div>
+                <button class="StartCampButt-home">Start a GoFundMe</button>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</nav>
+<body>
+    <div class="body-container">
+
+    </div>
+</body>
+</html>
+<script>
+    let home = document.getElementById("rdrhome");
+    home.addEventListener("click",function(){window.location.href="home.html"});
+</script>

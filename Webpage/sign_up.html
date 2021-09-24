@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_up</title>
+    <link rel="stylesheet" href="styles/sign_up.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<nav id="home-nav" class="top-navigation-container">
+    <link rel="stylesheet" href="styles/navstyle.css">
+    <div class="grid-container">
+        <div></div>
+        <div class="top-grid-signup">
+            <div id="rdrhome" class="GoFundMeImage"><img
+                    src="https://www.gofundme.com/c/wp-content/uploads/2021/04/gofundme-logo.png" alt=""></div>
+            <div></div>
+            <div class="Signin-navbar-question">
+                <div>Already have an account?<a href="sign_in.html">Sign in</a></div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</nav>
+
+<body>
+    <div class="head"></div>
+    <div class="box">
+        <p class="sign-display">Sign Up</p>
+        <hr />
+        <div class="sm_box">
+            <form onsubmit="sign_up(event)">
+                <div class=" first_last">
+                    <input type="text" placeholder="First name" class="first_name" required/>
+                    <input type="text" placeholder="Last name" class="last_name" required/>
+                </div>
+                <div class="email">
+                    <input type="text" name="" placeholder="Email address" id="signup_email" required/>
+                </div>
+                <div class="email">
+                    <input type="password" name="" placeholder="Password" required/>
+                </div>
+                <input type="checkbox" name="agree" id="agree" required />
+                <p class="agree_p">
+                    I agree to the
+                    <span><a href="" class="link_tag">Terms of Service</a></span>
+                    and <span><a href="" class="link_tag"> Privacy Policy</a></span>. I agree to receive the default
+                    email notifications, which I can
+                    unsubscribe from at any time.
+                </p>
+                <div>
+                    <input type="submit" value="Next" id="button">
+                </div>
+            </form>
+        </div>
+        <hr>
+        <div class="terms-conditions">GoFundMe's fee is 5% from each donation you receive.The payment process fee is
+            2.9% + $0.30 per donation. By continue, you agree to the GoFundMe <a href="">terms</a> and acknowledge
+            receipt of our <a href="">privacy policy</a>.
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    let home = document.getElementById("rdrhome");
+    home.addEventListener("click", function () { window.location.href = "../index.html" });
+</script>

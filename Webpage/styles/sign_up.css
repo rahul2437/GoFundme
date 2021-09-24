@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    width: 50%;
+    height: 700px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px grey;
+}
+.sign-display{
+    padding: 7% 0px;
+    font-size: 2rem;
+    font-family: 'Open Sans' sans-serif;
+}
+.first_last{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first_name{
+    width: 40%;
+}
+.last_name{
+    width: 40%;
+    margin-left: 5%;
+} 
+.sm_box{
+    width: 70%;
+    margin: 30px auto;
+}
+button{
+    width: 30%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:  #02a95c;
+    color:white;
+    margin: 30px 0px 30px 0px;
+}
+input{
+    width: 90%;
+    height: 50px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+a{
+    color: #02a95c;
+    text-decoration: none;
+}
+hr{
+    opacity: .3;
+}
+.terms-conditions{
+    padding: 5% 0;
+}

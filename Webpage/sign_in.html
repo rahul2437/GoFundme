@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_in</title>
+    <link rel="stylesheet" href="styles/sign_in.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<nav id="home-nav" class="top-navigation-container">
+    <link rel="stylesheet" href="styles/navstyle.css">
+    <div class="grid-container">
+        <div></div>
+        <div class="top-grid-signup">
+            <div id="rdrhome" class="GoFundMeImage"><img src="https://www.gofundme.com/c/wp-content/uploads/2021/04/gofundme-logo.png" alt=""></div>
+            <div></div>
+            <div class="Signin-navbar-question">
+                <div>Don't have an account?<a href="sign_up.html">Sign up</a></div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</nav>
+<body>
+    <div class="box">
+        <p class="sign-display">Sign In</p>
+        <hr>
+        <div class="sm_box">
+            <div>
+                <button class="fb">Continue With Facebook</button>
+            </div>
+            <div>
+                <div class="left"></div>
+                <div class="cen">or</div>
+                <div class="right"></div>
+            </div>
+            <div class="email">
+                <input type="text" name="" placeholder="Email address" id="login-email">
+            </div>
+
+            <div class="email">
+                <input type="text" name="" placeholder="Password" id="login-password">
+            </div>
+            <div>
+                <button class="sign" onclick="login()">Sign in to GoFundMe</button>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <button class="green">Forget your password?</button>
+        </div>   
+    </div>
+</body>
+</html>
+<script>
+    let home = document.getElementById("rdrhome");
+    home.addEventListener("click",function(){window.location.href="../index.html"});
+
+    function login(){
+        
+    }
+</script>

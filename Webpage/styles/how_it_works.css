@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    font-stretch: extra-expanded;
+
+    
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+img{
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.video_link{
+    text-align: center;
+}
+
+.mid_box{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cointent1 cointent2 cointent3";
+}
+
+.mid_button{
+    margin-top: 50px;
+    text-align: center;
+    border : 2px;
+
+}
+
+h3{
+    width: 50px;
+    text-align: center;
+    color: #02A95C;
+    border: 2px solid #02A95C;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+li{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.Anchor_link{
+    color: #02A95C;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.low_box{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    font-stretch: extra-expanded;
+}
+.startGoFundMe{
+    padding: 10px 12px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    background-color: #02a95c;
+    box-shadow: 0px 2px 6px 0px #a5a5a5;
+}
+.startGoFundMe:hover{
+    background-color: #008346;
+}
+.low_box>p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.low_box>button{
+    padding: 20px;
+    width: 15%;
+    border: 1px solid #02A95C;
+    color: #02A95C;
+    background-color: white;
+    font-size: large;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.low_box>button:hover {
+    color: #388E3C;
+    border: 1px solid #388E3C;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 900px){
+    .mid_box{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:    "cointent1 "
+                                "cointent2 "
+                                "cointent3";
+    }
+}
+
